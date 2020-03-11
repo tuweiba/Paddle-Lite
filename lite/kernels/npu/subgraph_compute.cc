@@ -27,7 +27,7 @@ namespace paddle {
 namespace lite {
 namespace kernels {
 namespace npu {
-
+//I will modify it for ascend310 platform.
 int SubgraphEngine::BuildDeviceProgram() {
   int status = 0;
   // Convert all of ops and their input vars and weights and added into the NPU
